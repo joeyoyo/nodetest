@@ -16,6 +16,15 @@ var fs = require('fs');
 //     }
 // });
 
+//打印出什么   3 3  3
+//for(var i=0;i<3;i++){
+//
+//    setTimeout(function(){
+//        console.log(i);
+//    },100)
+//}
+
+
 //2. 找出html目录下面的所有的目录，然后打印出来
 var filesArr = [];
 fs.readdir('html', function (err, files) {
@@ -24,7 +33,7 @@ fs.readdir('html', function (err, files) {
 
     } else {  /*判断是目录还是文件夹*/
         console.log(files);  /*数组*/
-        //用匿名自运行函数把一部改成同步
+        //用匿名自运行函数把异步改成同步
         (function getFile(i) {
             if (i == files.length) {
                 return false;

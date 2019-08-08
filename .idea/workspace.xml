@@ -5,20 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fe8e2c2-9b27-4182-a9bd-d412475ffc42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fs/fs03_readStream.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fs/fs04_writeStream.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fs/fs05_pipeStream.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fs/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_01/mime.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_01/model/getmine.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_01/model/getmineformfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_01/service01.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_01/service02.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_01/service03.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_01/get post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_01/model/getmineformfile_callback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_01/model/getmineformfile_error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_01/model/getmineformfile_event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_01/model/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_01/router_01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_01/service04.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_01/service05_callback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_01/service06_event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_01/static/111.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_01/views/form.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_01/views/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_01/views/login.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_01/views/register.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_01/事件驱动01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_01/事件驱动获取数据.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_01/回调函数.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_01/非阻塞io.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fs/fs02.js" beforeDir="false" afterPath="$PROJECT_DIR$/fs/fs02.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fs/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fs/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_01/model/getmineformfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_01/model/getmineformfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_01/service03.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_01/service03.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,26 +40,51 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_01/mime.json">
+        <entry file="file://$PROJECT_DIR$/web_01/get post.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12192" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_01/service03.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="-416">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_01/loginLog.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web_01/model/getmineformfile.js">
+        <entry file="file://$PROJECT_DIR$/web_01/views/form.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            <state relative-caret-position="390">
+              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_01/views/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_01/views/login.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-123">
+              <caret line="4" selection-start-line="4" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_01/views/register.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -71,15 +104,30 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/fs/fs02.js" />
         <option value="$PROJECT_DIR$/fs/fs03.js" />
         <option value="$PROJECT_DIR$/fs/fs04_writeStream.js" />
         <option value="$PROJECT_DIR$/fs/fs05_pipeStream.js" />
         <option value="$PROJECT_DIR$/web_01/model/getmine.js" />
         <option value="$PROJECT_DIR$/web_01/service01.js" />
         <option value="$PROJECT_DIR$/web_01/service02.js" />
+        <option value="$PROJECT_DIR$/fs/fs02.js" />
         <option value="$PROJECT_DIR$/web_01/service03.js" />
         <option value="$PROJECT_DIR$/web_01/model/getmineformfile.js" />
+        <option value="$PROJECT_DIR$/web_01/service04.js" />
+        <option value="$PROJECT_DIR$/web_01/model/getmineformfile_callback.js" />
+        <option value="$PROJECT_DIR$/web_01/service06_event.js" />
+        <option value="$PROJECT_DIR$/web_01/model/getmineformfile_event.js" />
+        <option value="$PROJECT_DIR$/web_01/非阻塞io.js" />
+        <option value="$PROJECT_DIR$/web_01/回调函数.js" />
+        <option value="$PROJECT_DIR$/web_01/事件驱动获取数据.js" />
+        <option value="$PROJECT_DIR$/web_01/service05_callback.js" />
+        <option value="$PROJECT_DIR$/web_01/router_01.js" />
+        <option value="$PROJECT_DIR$/web_01/model/router.js" />
+        <option value="$PROJECT_DIR$/web_01/get post.js" />
+        <option value="$PROJECT_DIR$/web_01/views/login.ejs" />
+        <option value="$PROJECT_DIR$/web_01/views/index.ejs" />
+        <option value="$PROJECT_DIR$/web_01/views/register.ejs" />
+        <option value="$PROJECT_DIR$/web_01/views/form.ejs" />
       </list>
     </option>
   </component>
@@ -89,9 +137,9 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="959" />
+    <option name="width" value="968" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -99,6 +147,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,16 +155,10 @@
               <item name="nodetest" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodetest" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="nodetest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodetest" type="462c0819:PsiDirectoryNode" />
-              <item name="web_01" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -131,6 +174,8 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\nodetest_git\nodetest\web_01" />
+      <recent name="E:\nodetest_git\nodetest\web_01\model" />
+      <recent name="E:\nodetest_git\nodetest\web_01\static" />
       <recent name="E:\nodetest_git\nodetest\fs" />
     </key>
   </component>
@@ -146,29 +191,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.getmineformfile.js">
-    <configuration name="fs04_writeStream.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="fs04_writeStream.js" working-dir="$PROJECT_DIR$/fs">
+  <component name="RunManager" selected="Node.js.get post.js">
+    <configuration name="事件驱动01.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="事件驱动01.js" working-dir="$PROJECT_DIR$/web_01">
       <method v="2" />
     </configuration>
-    <configuration name="fs05_pipeStream.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="fs05_pipeStream.js" working-dir="$PROJECT_DIR$/fs">
+    <configuration name="事件驱动获取数据.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="事件驱动获取数据.js" working-dir="$PROJECT_DIR$/web_01">
       <method v="2" />
     </configuration>
-    <configuration name="getmineformfile.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="getmineformfile.js" working-dir="$PROJECT_DIR$/web_01/model">
+    <configuration name="get post.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="get post.js" working-dir="$PROJECT_DIR$/web_01">
       <method v="2" />
     </configuration>
-    <configuration name="service01.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="service01.js" working-dir="$PROJECT_DIR$/web_01">
+    <configuration name="router_01.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="router_01.js" working-dir="$PROJECT_DIR$/web_01">
       <method v="2" />
     </configuration>
-    <configuration name="service02.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="service02.js" working-dir="$PROJECT_DIR$/web_01">
+    <configuration name="service05_callback.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="service05_callback.js" working-dir="$PROJECT_DIR$/web_01">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.getmineformfile.js" />
-        <item itemvalue="Node.js.service02.js" />
-        <item itemvalue="Node.js.service01.js" />
-        <item itemvalue="Node.js.fs05_pipeStream.js" />
-        <item itemvalue="Node.js.fs04_writeStream.js" />
+        <item itemvalue="Node.js.get post.js" />
+        <item itemvalue="Node.js.router_01.js" />
+        <item itemvalue="Node.js.service05_callback.js" />
+        <item itemvalue="Node.js.事件驱动获取数据.js" />
+        <item itemvalue="Node.js.事件驱动01.js" />
       </list>
     </recent_temporary>
   </component>
@@ -183,30 +228,31 @@
       <option name="presentableId" value="Default" />
       <updated>1565084961707</updated>
       <workItem from="1565084962855" duration="974000" />
-      <workItem from="1565141720172" duration="15998000" />
+      <workItem from="1565141720172" duration="16451000" />
+      <workItem from="1565227950997" duration="18785000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16972000" />
+    <option name="totallyTimeSpent" value="36210000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="1" />
+    <frame x="959" y="0" width="968" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24252136" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3204301" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968238" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32968238" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32104123" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32968238" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -217,37 +263,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fs/fs02.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fs/fs01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fs/fs03_readStream.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fs/fs04_writeStream.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fs/output1.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -280,6 +295,47 @@
         <state relative-caret-position="-88" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web_01/static/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fs/fs01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fs/fs04_writeStream.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fs/fs03_readStream.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fs/fs02.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_01/mime.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web_01/model/getmine.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -287,13 +343,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_01/static/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_01/service02.js">
+    <entry file="file://$PROJECT_DIR$/web_01/model/getmineformfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        <state relative-caret-position="234">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_01/service03.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -304,22 +364,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_01/mime.json">
+    <entry file="file://$PROJECT_DIR$/web_01/service02.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12192" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_01/service03.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="364">
+          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_01/model/getmineformfile.js">
+    <entry file="file://$PROJECT_DIR$/web_01/model/getmineformfile_error.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_01/model/getmineformfile_event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_01/非阻塞io.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_01/事件驱动01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="37" column="43" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_01/回调函数.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_01/事件驱动获取数据.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_01/service04.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_01/service06_event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_01/model/getmineformfile_callback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_01/service05_callback.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_01/router_01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_01/model/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_01/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_01/loginLog.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_01/get post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-416">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_01/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_01/views/register.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_01/views/login.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-123">
+          <caret line="4" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_01/views/form.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
